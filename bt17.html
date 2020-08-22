@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <table border="1">
+        <tbody>
+          <tr>
+            <td><label>Họ tên:</label></td>
+            <td><input type="text" placeholder="Nhập học tên ở đây!" /></td>
+          </tr>
+          <tr>
+            <td><label>Giới tính:</label></td>
+            <td>
+              <input type="radio" name="gioitinh" value="Nam" checked="" />Nam
+              <input type="radio" name="gioitinh" value="Nu" />Nữ
+            </td>
+          </tr>
+          <tr>
+            <td><label>Điều bạn quan tâm</label></td>
+            <td>
+              <input type="checkbox" name="quantam" value="Kinhte" />Kinh tế
+              <input type="checkbox" name="quantam" value="Xahoi" />Xã hội
+              <input type="checkbox" name="quantam" value="Giaitri" />Giải trí
+            </td>
+          </tr>
+          <tr>
+            <td><label>Địa chỉ:</label></td>
+            <td><textarea name="diachi" cols="50" rows="5"></textarea></td>
+          </tr>
+          <tr>
+            <td><label>Học vấn</label></td>
+            <td>
+              <select>
+                <option>Đại học</option>
+                <option>Cao đẳng</option>
+                <option>Trung cấp</option>
+                <option>THPT</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="button" value="Gửi thông tin" />
+              <input type="reset" value="Nhập lại" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
